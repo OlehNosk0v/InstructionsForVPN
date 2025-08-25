@@ -98,16 +98,21 @@ https://github.com/2dust/v2rayNG
   {
     "outboundTag": "direct",
     "domain": [
-      "userapi.com",
-      "*.userapi.com"
+      "wplace.live"
     ],
     "enabled": true
   },
   {
     "outboundTag": "direct",
     "domain": [
-      "vk.com",
-      "*.vk.com"
+      "userapi.com"
+    ],
+    "enabled": true
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "vk.com"
     ],
     "enabled": true,
     "remarks": "VK"
