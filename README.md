@@ -186,19 +186,34 @@ https://github.com/2dust/v2rayNG
     "domain": [
       "wplace.live"
     ],
-    "enabled": true
+    "enabled": true,
+    "remarks": "Wplace"
   },
   {
     "outboundTag": "direct",
     "domain": [
-      "userapi.com"
+      "twitch.tv",
+      "jtvnw.net",
+      "twitchcdn.net",
+      "cloudfront.net",
+      "ttvnw.net",
+      "live-video.net",
+      "twitchcdn.net",
+      "ext-twitch.tv",
+      "twitch-shadow.net",
+      "twitch.a2z.com",
+      "twitchcdn-shadow.net",
+      "twitchsvc-staging.tech",
+      "twitchsvc.net"
     ],
-    "enabled": true
+    "enabled": true,
+    "remarks": "Twitch"
   },
   {
     "outboundTag": "direct",
     "domain": [
-      "vk.com"
+      "vk.com",
+      "userapi.com"
     ],
     "enabled": true,
     "remarks": "VK"
@@ -208,22 +223,16 @@ https://github.com/2dust/v2rayNG
     "domain": [
       "regexp:.*\\.ru$"
     ],
-    "enabled": true
+    "enabled": true,
+    "remarks": "\u0414\u043E\u043C\u0435\u043D\u044B \u0441 .ru \u0441\u0430\u0439\u0442\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
   },
   {
     "outboundTag": "direct",
     "ip": [
       "geoip:ru"
     ],
-    "enabled": true
-  },
-  {
-    "outboundTag": "block",
-    "domain": [
-      "geosite:category-ads-all"
-    ],
     "enabled": true,
-    "remarks": "\u0411\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u043A\u0430 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+    "remarks": "\u0412\u0441\u0435 \u0420\u0423 IP \u0430\u0434\u0440\u0435\u0441\u0430 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
   },
   {
     "outboundTag": "direct",
