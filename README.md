@@ -179,6 +179,41 @@ https://github.com/2dust/v2rayNG
 
 # Настройки маршутизации
 
+Актуальное правило:
+```json
+[
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:ru-blocked-all"
+    ],
+    "enabled": true,
+    "remarks": "\u0412\u0441\u0451, \u0437\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u0432 \u0420\u0424, \u0447\u0435\u0440\u0435\u0437 VPN"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "protocol": [
+      "http",
+      "tls"
+    ],
+    "enabled": true,
+    "remarks": "\u0412\u0441\u0435 \u043F\u0440\u043E\u043A\u0441\u0438 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "regexp:\\.*$"
+    ],
+    "enabled": true,
+    "remarks": "\u041D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  }
+]
+```
+
+Правило, что работало до 19.10.2025:
+
 ```json
 [
   {
