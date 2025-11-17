@@ -222,7 +222,7 @@ https://apps.apple.com/us/app/streisand/id6450534064
 ]
 ```
 
-Правило "Всё, что не заблокировано, с VPN", актуальное правило для V2rayNG и V2rayN:
+Правило "Выборчно без VPN", актуальное правило для V2rayNG и V2rayN:
 ```json
 [
   {
