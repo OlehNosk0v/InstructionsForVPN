@@ -228,6 +228,74 @@ https://apps.apple.com/us/app/streisand/id6450534064
   {
     "outboundTag": "direct",
     "domain": [
+      "yandex.ru",
+      "yandex.org",
+      "yandex.net",
+      "yandex.net.ru",
+      "yandex.com.ru",
+      "yandex.ua",
+      "yandex.com.ua",
+      "yandex.by",
+      "yandex.eu",
+      "yandex.ee",
+      "yandex.lt",
+      "yandex.lv",
+      "yandex.md",
+      "yandex.uz",
+      "yandex.mx",
+      "yandex.do",
+      "yandex.tm",
+      "yandex.de",
+      "yandex.ie",
+      "yandex.in",
+      "yandex.qa",
+      "yandex.so",
+      "yandex.nu",
+      "yandex.tj",
+      "yandex.dk",
+      "yandex.es",
+      "yandex.pt",
+      "yandex.pl",
+      "yandex.lu",
+      "yandex.it",
+      "yandex.az",
+      "yandex.ro",
+      "yandex.rs",
+      "yandex.sk",
+      "yandex.no",
+      "ya.ru",
+      "yandex.com",
+      "yandex.asia",
+      "yandex.mobi",
+      "podberi.ru",
+      "yandexsport.ru",
+      "punto-switcher.ru",
+      "punto.ru",
+      "yastatic.net"
+    ],
+    "enabled": true,
+    "remarks": "Yandex"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ddos-guard"
+    ],
+    "enabled": true,
+    "remarks": "DDoS-Guard \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "kinopoiskapiunofficial.tech",
+      "reyohoho.github.io"
+    ],
+    "enabled": true,
+    "remarks": "Reyohoho"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
       "wplace.live"
     ],
     "enabled": true,
@@ -257,7 +325,10 @@ https://apps.apple.com/us/app/streisand/id6450534064
     "outboundTag": "direct",
     "domain": [
       "vk.com",
-      "userapi.com"
+      "userapi.com",
+      "vk.ru",
+      "vk-portal.net",
+      "vkuser.net"
     ],
     "enabled": true,
     "remarks": "VK"
@@ -265,7 +336,9 @@ https://apps.apple.com/us/app/streisand/id6450534064
   {
     "outboundTag": "direct",
     "domain": [
-      "regexp:.*\\.ru$"
+      "regexp:.*\\.ru$",
+      "regexp:.*\\.xn--p1ai$",
+      "regexp:.*\\.su$"
     ],
     "enabled": true,
     "remarks": "\u0414\u043E\u043C\u0435\u043D\u044B \u0441 .ru \u0441\u0430\u0439\u0442\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
@@ -273,7 +346,9 @@ https://apps.apple.com/us/app/streisand/id6450534064
   {
     "outboundTag": "direct",
     "ip": [
-      "geoip:ru"
+      "geoip:ru",
+      "geoip:yandex",
+      "geoip:telegram"
     ],
     "enabled": true,
     "remarks": "\u0412\u0441\u0435 \u0420\u0423 IP \u0430\u0434\u0440\u0435\u0441\u0430 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
