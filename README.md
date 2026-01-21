@@ -226,6 +226,29 @@ https://apps.apple.com/us/app/streisand/id6450534064
 ```json
 [
   {
+    "network": "tcp,udp",
+    "outboundTag": "proxy",
+    "ip": [
+      "91.108.56.0/22",
+      "91.108.4.0/22",
+      "91.108.8.0/22",
+      "91.108.16.0/22",
+      "91.108.12.0/22",
+      "149.154.160.0/20",
+      "91.105.192.0/23",
+      "91.108.20.0/22",
+      "185.76.151.0/24",
+      "2001:b28:f23d::/48",
+      "2001:b28:f23f::/48",
+      "2001:67c:4e8::/48",
+      "2001:b28:f23c::/48",
+      "2a0a:f280::/32"
+    ],
+    "protocol": [],
+    "enabled": true,
+    "remarks": "Telegram"
+  },
+  {
     "outboundTag": "direct",
     "domain": [
       "yandex.ru",
@@ -287,23 +310,6 @@ https://apps.apple.com/us/app/streisand/id6450534064
   {
     "outboundTag": "direct",
     "domain": [
-      "kinopoiskapiunofficial.tech",
-      "reyohoho.github.io"
-    ],
-    "enabled": true,
-    "remarks": "Reyohoho"
-  },
-  {
-    "outboundTag": "direct",
-    "domain": [
-      "wplace.live"
-    ],
-    "enabled": true,
-    "remarks": "Wplace"
-  },
-  {
-    "outboundTag": "direct",
-    "domain": [
       "twitch.tv",
       "jtvnw.net",
       "twitchcdn.net",
@@ -328,7 +334,8 @@ https://apps.apple.com/us/app/streisand/id6450534064
       "userapi.com",
       "vk.ru",
       "vk-portal.net",
-      "vkuser.net"
+      "vkuser.net",
+      "vkuseraudio.net"
     ],
     "enabled": true,
     "remarks": "VK"
