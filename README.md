@@ -301,14 +301,6 @@ https://apps.apple.com/us/app/streisand/id6450534064
   },
   {
     "outboundTag": "direct",
-    "ip": [
-      "geoip:ddos-guard"
-    ],
-    "enabled": true,
-    "remarks": "DDoS-Guard \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
-  },
-  {
-    "outboundTag": "direct",
     "domain": [
       "twitch.tv",
       "jtvnw.net",
@@ -349,16 +341,6 @@ https://apps.apple.com/us/app/streisand/id6450534064
     ],
     "enabled": true,
     "remarks": "\u0414\u043E\u043C\u0435\u043D\u044B \u0441 .ru \u0441\u0430\u0439\u0442\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
-  },
-  {
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:ru",
-      "geoip:yandex",
-      "geoip:telegram"
-    ],
-    "enabled": true,
-    "remarks": "\u0412\u0441\u0435 \u0420\u0423 IP \u0430\u0434\u0440\u0435\u0441\u0430 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
   },
   {
     "outboundTag": "direct",
